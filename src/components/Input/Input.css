@@ -1,0 +1,37 @@
+.form{
+    display: flex;
+    border-top: 1px solid #D3D3D3;
+}
+
+.input{
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.sendMessage{
+    border-top: 1px solid #D3D3D3;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #2979FF;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    cursor: pointer;
+}
+
+.sendMessage:focus{
+    outline: none;
+}
+
+.sendMessage:active{
+    background-color: #2979DD;
+}
